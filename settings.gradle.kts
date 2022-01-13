@@ -6,6 +6,7 @@ pluginManagement {
     }
 
     includeBuild("lib/minigdx")
+
 }
 rootProject.name = "GamesCollection"
 

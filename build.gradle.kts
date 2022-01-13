@@ -1,6 +1,7 @@
 import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.ir.backend.js.compile
 
 plugins {
     kotlin("jvm") version "1.5.21"
@@ -17,7 +18,15 @@ repositories {
 }
 
 dependencies {
+    implementation(project(mapOf("path" to ":")))
+    implementation(project(mapOf("path" to ":")))
+    implementation(project(mapOf("path" to ":")))
+    implementation(project(mapOf("path" to ":")))
+    implementation(project(mapOf("path" to ":")))
+    implementation(project(mapOf("path" to ":")))
     testImplementation(kotlin("test"))
+
+
     implementation(compose.desktop.currentOs)
 }
 
