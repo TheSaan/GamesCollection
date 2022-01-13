@@ -1,0 +1,3 @@
+[submodule "lib/minigdx"]
+	path = lib/minigdx
+	url = https://github.com/TheSaan/minigdx.git
